@@ -1,0 +1,44 @@
+﻿<Page x:Class="_119_Novikov.Pages.PageWordExecute"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_119_Novikov.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageWordExecute">
+
+    <Grid>
+        <Button Content="Сформировать" HorizontalAlignment="Left" Margin="430,0,0,215" VerticalAlignment="Bottom" Width="200" Click="Button_Click"/>
+        <TextBox x:Name="TextBoxOrgName" Margin="0,0,375,295" Background="Transparent" Text="" VerticalAlignment="Bottom" Width="200" HorizontalAlignment="Right" Height="35" FontSize="12"/>
+        <TextBox x:Name="TextBoxManager" Margin="0,0,375,255" Background="Transparent" Text="" VerticalAlignment="Bottom" Width="200" HorizontalAlignment="Right" Height="35" FontSize="12"/>
+        <TextBox x:Name="TextBoxNumber" Margin="0,0,375,215" Background="Transparent" Text="" VerticalAlignment="Bottom" Width="200" HorizontalAlignment="Right" Height="35" FontSize="12"/>
+        <TextBox x:Name="TextBoxReceiver" Margin="0,0,375,175" Background="Transparent" Text="" VerticalAlignment="Bottom" Width="200" HorizontalAlignment="Right" Height="35" FontSize="12"/>
+        <TextBox x:Name="TextBoxAgent" Margin="0,0,375,135" Background="Transparent" Text="" VerticalAlignment="Bottom" Width="200" HorizontalAlignment="Right" Height="35" FontSize="12"/>
+        <Label Content="Организация" HorizontalAlignment="Right" Margin="0,0,580,295" VerticalAlignment="Bottom" Width="127">
+            <Label.ToolTip>
+                Наименование организации
+            </Label.ToolTip>
+        </Label>
+        <Label Content="Менеджер" HorizontalAlignment="Right" Margin="0,0,580,255" VerticalAlignment="Bottom" Width="127">
+            <Label.ToolTip>
+                Фамилия и инициалы Менеджера
+            </Label.ToolTip>
+        </Label>
+        <Label Content="Номер" HorizontalAlignment="Right" Margin="0,0,580,215" VerticalAlignment="Bottom" Width="127">
+            <Label.ToolTip>
+                Номер заказа
+            </Label.ToolTip>
+        </Label>
+        <Label Content="Получатель" HorizontalAlignment="Right" Margin="0,0,580,175" VerticalAlignment="Bottom" Width="127">
+            <Label.ToolTip>
+                Предприятие-получатель
+            </Label.ToolTip>
+        </Label>
+        <Label Content="Агент" HorizontalAlignment="Right" Margin="0,0,580,135" VerticalAlignment="Bottom" Width="127">
+            <Label.ToolTip>
+                Фамилия и инициалы Агента - представителя
+            </Label.ToolTip>
+        </Label>
+    </Grid>
+</Page>
